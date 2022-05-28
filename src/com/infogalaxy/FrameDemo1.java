@@ -11,6 +11,7 @@ public class FrameDemo1 {
     JTextField txtPassword = new JTextField();
     JButton btnLogin = new JButton("LogIn");
     JButton btnCancel = new JButton("Cancel");
+
     public FrameDemo1() {
         lblUsername.setBounds(20, 20, 150, 30);
         lblUsername.setText("Enter the Username :");
@@ -42,7 +43,7 @@ public class FrameDemo1 {
     }
 }
 
-class Main{
+class Main {
     public static void main(String[] args) {
         FrameDemo1 frameDemo1 = new FrameDemo1();
     }
